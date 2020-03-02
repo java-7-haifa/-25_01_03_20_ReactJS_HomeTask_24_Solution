@@ -1,0 +1,35 @@
+.car{
+    width:calc(100%/4 - 30px);
+    margin: 15px;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cars{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.card div{
+    flex-grow: 1;
+}
+.card input{
+    display: block;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.card div button{
+    display: block;
+    margin-left: auto;
+    margin-right: 80px;
+}
